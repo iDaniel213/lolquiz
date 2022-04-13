@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Quiz</title>
+    <style>
+        h1{
+            text-align: center;
+            background-color: blue;
+            color: yellow;
+        }
+        body {
+            font-size: 20px;
+            font-family: sans-serif;
+            color: #333;
+            background-image: url('lolbg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>LoL Quiz</h1>
+<ol class="quiz"></ol>
+
+<input type="button" value="értékel" onclick="ellenor()">
+<div id="results"></div>
+
+    <script src="data.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>
